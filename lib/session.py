@@ -17,7 +17,7 @@ import atexit
 
 class Session(object):
     def __init__(self, manager, username='admin', password='default', debug=False, verify=False,
-                 protocol='https', vcenterIp=None, vcenterUser='root', vcenterPass='vmware'):
+                 protocol='https', vcenterIp=10.10.1.13, vcenterUser='charrierc', vcenterPass='vmware2109'):
         """
         Handle sessions against NSX Manager and vCenter
 
